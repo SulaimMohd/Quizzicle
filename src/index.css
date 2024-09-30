@@ -1,0 +1,170 @@
+*{
+  margin: 0;
+}
+body{
+
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  height:100vh;
+}
+
+.start-page{
+  position: relative;
+  height: 550px;
+  width: 550px;
+  background: #F5F7FB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  cursor: default;
+}
+.start-page h1{
+  color: #293264;
+  font-family: Karla;
+  font-size: 31.25px;
+  font-weight: 700;
+  
+}
+.start-page h4{
+  color: #293264;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 7px;
+  margin-bottom: 29px;
+
+}
+.start-page button{
+  width: 193px;
+  height: 52px;
+  background-color: rgba(77, 91, 158, 1);
+  color: #F5F7FB;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.start-page button:hover{
+  background-color: rgb(59, 69, 122);
+}
+.img1{
+  position: absolute;
+  top: -10px;
+  right: -20px;
+  border-top-right-radius: 10px;
+}
+.img2{
+  position: absolute;
+  bottom: -10px;
+  left: -20px;
+  border-top-right-radius: 10px;
+}
+.quiz-page{
+  padding-top: 20px;
+  position: relative;
+  height: 650px;
+  width: 600px;
+  background: #F5F7FB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  cursor: default;
+  overflow: hidden;
+}
+.questions{
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+
+}
+.q-card{
+  margin-top: 15px;
+}
+.q-card hr{
+  margin-top: 14px;
+  width: 399px;
+  border: .5px solid #DBDEF0;
+}
+.q-card h1{
+  color: #293264;
+  font-family: Karla;
+  font-size: 16px;
+  font-weight: 700;
+  max-width: 365px;
+}
+.options-div{
+
+  max-width: 365px;
+}
+.option{
+  display: inline-block;
+  color: #293264;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-weight: 500;
+  border: 1px solid  #4D5B9E;
+  padding: 4px 8px;
+  border-radius: 7px;
+  margin: 12px 13px 0px 0px ;
+  transition: .15s;
+  cursor: pointer;
+  
+}
+.option:hover{
+  background-color: #e2e5f2;;
+}
+.questions::-webkit-scrollbar {
+  display: none;
+}
+.check-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #293264;
+
+  font-family: Inter;
+  font-size: 12.8px;
+
+  font-weight: 700;
+  column-gap: 20px;
+
+}
+.check-button, .play-again-button{
+
+  width: 120px;
+  height: 35px;
+  color: #F5F7FB;
+  background-color: #4D5B9E;
+  text-align: center;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.check-button:hover{
+  background-color: #3b4a99;
+}
+.continer{
+  display: flex;
+  flex-direction: column; 
+
+  justify-content: center;
+  align-items: center;
+  color: #293264;
+  font-family: Karla;
+  gap: 10px;
+
+}
