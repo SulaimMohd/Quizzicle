@@ -1,8 +1,8 @@
 import React from "react";
 import QCard from "./QCard";
 import { nanoid } from "nanoid";
-import image1 from "./Images/quizimg1.png"
-import image2 from "./Images/quizimg2.png"
+import image1 from "../Images/quizimg1.png"
+import image2 from "../Images/quizimg2.png"
 import Confetti from "react-confetti";
 
 function QuizPage(){
